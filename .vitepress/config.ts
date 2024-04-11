@@ -5,7 +5,8 @@ export default defineConfig({
   title: "Help Docs with Vitepress",
   description: "A sample Documentation deployment on Vercel using Vitepress.",
   base: '/',
-  outDir: './.vitepress/dist',
+  srcDir: './partials',
+  outDir: './.vitepress/publish',
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

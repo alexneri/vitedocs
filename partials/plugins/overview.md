@@ -2,8 +2,8 @@
 
 You can use plugins on SG Research or SEI.MOE to enhance ChatGPT's functionality. The plugins available are:
 
-- [Search](./google-search.md)
-- [Request](./request.md)
+- [Search](partials/plugins/google-search.md)
+- [Request](partials/plugins/request.md)
 - ...more
 
 You can enable plugins here:
