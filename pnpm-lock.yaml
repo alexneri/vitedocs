@@ -8,6 +8,9 @@ dependencies:
   medium-zoom:
     specifier: ^1.1.0
     version: 1.1.0
+  pnpm:
+    specifier: ^8.15.6
+    version: 8.15.6
 
 devDependencies:
   '@egoist/tailwindcss-icons':
@@ -23,7 +26,7 @@ devDependencies:
     specifier: ^3.3.5
     version: 3.4.3
   vitepress:
-    specifier: ^1.0.2
+    specifier: ^1.1.0
     version: 1.1.0(@algolia/client-search@4.23.2)(postcss@8.4.38)(search-insights@2.13.0)
   vue:
     specifier: ^3.3.8
@@ -1588,6 +1591,12 @@ packages:
       mlly: 1.6.1
       pathe: 1.1.2
     dev: true
+
+  /pnpm@8.15.6:
+    resolution: {integrity: sha512-d7iem+d6Kwatj0A6Gcrl4il29hAj+YrTI9XDAZSVjrwC7gpq5dE+5FT2E05OjK8poF8LGg4dKxe8prah8RWfhg==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
 
   /postcss-import@15.1.0(postcss@8.4.38):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}

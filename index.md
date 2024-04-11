@@ -1,18 +1,22 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Help Docs with Vitepress
+titleTemplate: Your all-new software documentation hub
 
 hero:
   name: "Help Docs with Vitepress"
-  text: "A sample documentation deployment on Vercel using Vitepress."
-  tagline: Your software documentation can be deployed in less than a day.
+  text: "Deploy your docs within 24H."
+  tagline: Your all-new software documentation hub deployed on Vercel using Vitepress.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Build your own
+      link: https://github.com/alexneri/vitedocs
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Ask me to build
+      link: https://sei.moe/contact
+    - theme: alt
+      text: View examples
+      link: /markdown-examples
 
 features:
   - title: Easy to edit
@@ -21,5 +25,14 @@ features:
     details: Content is presented in a modern and clean design out of the box.
   - title: Dark mode
     details: The site can be viewed in light more or dark mode.
+
 ---
 
+## Want to get started immediately?
+
+You can get started using directly using VitePress right away with `npx`!
+
+```sh
+npm init
+npx vitepress init
+```
